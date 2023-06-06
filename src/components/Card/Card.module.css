@@ -1,0 +1,40 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	/* border: 1px solid black; */
+	width: 20vw;
+	height: 30vw;
+	justify-content: center;
+	border-radius: 10px;
+	margin: 1vw;
+	align-items: center;
+	background-image: url('../../images/fondos/tabla-cortar.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: var(--claro-gris-oscuro);
+}
+
+.container .description {
+	width: 95%;
+}
+
+@media (max-width: 768px) {
+	.container {
+		width: 330px;
+		height: 500px;
+	}
+}
+
+.container h1,
+h2 {
+	font-size: 17px;
+	margin: 5px 0 0 0;
+	color: var(--claro-gris-oscuro);
+}
+
+.container img {
+	width: 80%;
+	border-radius: 10px;
+	/* margin: 2px 0; */
+}

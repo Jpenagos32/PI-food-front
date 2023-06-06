@@ -9,10 +9,10 @@ import CreateRecipe from './components/CreateRecipe/CreateRecipe';
 import { useSelector } from 'react-redux';
 import axios from 'axios';
 
-// axios.defaults.baseURL = 'http://localhost:3001';
-axios.defaults.baseURL = 'https://pi-food-back-production-b752.up.railway.app';
-
 function App() {
+	// axios.defaults.baseURL = 'http://localhost:3001';
+	axios.defaults.baseURL =
+		'https://pi-food-back-production-b752.up.railway.app';
 	/* 
   ! Esta es la funcion que cambia entre dark y light
 	const [darkMode, setDarkMode] = useState(false);

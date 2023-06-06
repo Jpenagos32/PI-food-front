@@ -7,12 +7,8 @@ import NavBar from './components/NavBar/NavBar';
 import Detail from './components/Detail/Detail';
 import CreateRecipe from './components/CreateRecipe/CreateRecipe';
 import { useSelector } from 'react-redux';
-import axios from 'axios';
 
 function App() {
-	// axios.defaults.baseURL = 'http://localhost:3001';
-	axios.defaults.baseURL =
-		'https://pi-food-back-production-b752.up.railway.app';
 	/* 
   ! Esta es la funcion que cambia entre dark y light
 	const [darkMode, setDarkMode] = useState(false);

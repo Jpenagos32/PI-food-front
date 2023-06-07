@@ -41,7 +41,7 @@ const reducer = (state = initialState, action) => {
 			};
 
 		case FILTER_BY_DIET:
-			const filtered = state.filteredRecipes.filter((recipe) => {
+			const filtered = state.recipes.filter((recipe) => {
 				return recipe.diets.some(
 					(diet) => diet.name === action.payload
 				);

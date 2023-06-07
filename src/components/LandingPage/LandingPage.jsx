@@ -13,6 +13,7 @@ const LandingPage = (props) => {
 				</Link>
 			</div>
 			<img src={LandingBg} alt='Dishes' className={styles.lndngBg} />
+			{/* <div className={styles.overlay}></div> */}
 		</div>
 	);
 };

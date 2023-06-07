@@ -38,8 +38,7 @@ html {
 	margin: 0;
 }
 
-.darkMode,
-html {
+.darkMode {
 	background-color: #282c34;
 	color: var(--oscuro-gris-claro);
 	background-size: cover;
@@ -49,8 +48,7 @@ html {
 	color: var(--oscuro-gris-claro);
 }
 
-.lightMode,
-html {
+.lightMode {
 	background-color: var(--blanco-crema-principal);
 	color: var(--claro-gris-oscuro);
 	background-size: cover;

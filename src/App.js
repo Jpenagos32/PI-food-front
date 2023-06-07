@@ -9,22 +9,10 @@ import CreateRecipe from './components/CreateRecipe/CreateRecipe';
 import { useSelector } from 'react-redux';
 
 function App() {
-	/* 
-  ! Esta es la funcion que cambia entre dark y light
-	const [darkMode, setDarkMode] = useState(false);
-
-	const darkModeHandler = () => {
-		setDarkMode(!darkMode);
-	};
-
-TODO suscribir este componente al estado global darkMode	
- */
-
 	const darkMode = useSelector((state) => state.darkMode);
 
 	const location = useLocation();
 	return (
-		// TODO si es false el darkMode que classname sea lightMode de lo contrario que sea darkMode
 		<div className={darkMode ? 'darkMode' : 'lightMode'}>
 			{location.pathname !== '/' && <NavBar />}
 

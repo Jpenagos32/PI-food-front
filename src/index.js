@@ -8,7 +8,10 @@ import { Provider } from 'react-redux';
 import store from './Redux/store';
 import axios from 'axios';
 
+// ? PARA ENTORNO DE DESARROLLO
 // axios.defaults.baseURL = 'http://localhost:3001';
+
+// ? PARA ENTORNO DE PRODUCCIÓN:
 axios.defaults.baseURL = 'https://pi-food-back-production-b752.up.railway.app';
 
 ReactDOM.render(

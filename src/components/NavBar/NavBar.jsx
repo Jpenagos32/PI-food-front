@@ -93,7 +93,7 @@ const NavBar = (props) => {
 					defaultValue='--Select--'
 				>
 					<option disabled>--Select--</option>
-					<option value='N'>None</option>
+					{/* <option value='N'>None</option> */}
 					<option value='A'>A - Z</option>
 					<option value='D'>Z - A</option>
 				</select>
@@ -108,7 +108,7 @@ const NavBar = (props) => {
 					defaultValue='--Select--'
 				>
 					<option disabled>--Select--</option>
-					<option value='N'>None</option>
+					{/* <option value='N'>None</option> */}
 					<option value='A'>0 - 100</option>
 					<option value='D'>100 - 0</option>
 				</select>
